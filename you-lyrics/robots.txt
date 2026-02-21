@@ -1,0 +1,10 @@
+cat > robots.txt << 'EOF'
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /api/
+Disallow: /uploads/
+EOF
+
+echo "✅ Created robots.txt"
